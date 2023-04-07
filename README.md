@@ -9,7 +9,7 @@ Algoritma, bu farkları hesaplamak için dinamik programlama prensiplerini kulla
 Algoritmayı kullanmak için, senaryodaki çubuk yüksekliklerinin bir dizi olarak belirlenmesi gereklidir. Bu dizi, algoritmanın parametrelerinden biridir. Algoritma, çubuk yükseklikleri arasındaki farkları hesaplar ve yağmur sonrası biriken su miktarını hesaplar. Sonuç, printf() fonksiyonu ile ekrana yazdırılır.
 Özetle, bu algoritma, bir senaryodaki çubuk yüksekliklerinin arasındaki farkları hesaplayarak yağmur sonrası biriken su miktarını hesaplamak için kullanılır.
 
-#Kodun Çalışma Şekli
+# Kodun Çalışma Şekli
 Bu kod, bir fonksiyon ve bir ana programdan oluşur. Ana programda, önceden belirlenmiş bir çubuk yükseklikleri dizisi oluşturulur ve bu dizi fonksiyona gönderilir. Fonksiyon, bu dizi üzerinde hesaplama yapar ve yağmur sonrası biriken su miktarını hesaplar. Sonuç ana programda ekrana yazdırılır.
 Fonksiyon, dinamik programlama prensiplerine dayanarak sol ve sağ taraftaki en yüksek çubuk yüksekliklerini bulur. Daha sonra, her bir çubuk için bu iki değerin minimumu ile çubuk yüksekliği arasındaki farkı hesaplar. Bu kapasitelerin toplamı, yağmur sonrası biriken su miktarını verir.
 Kodun çalışma mantığı şöyle özetlenebilir:
